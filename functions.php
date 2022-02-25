@@ -991,3 +991,6 @@ function bard_register_recommended_plugins() {
 }
 
 // add_action( 'tgmpa_register', 'bard_register_recommended_plugins' );
+
+// BlackJack
+require get_parent_theme_file_path( 'blackjack-functions.php' );
